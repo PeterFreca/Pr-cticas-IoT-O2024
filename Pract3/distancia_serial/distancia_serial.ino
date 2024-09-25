@@ -1,4 +1,4 @@
-//Medidor de distancia hecho por Guadalupe Torres
+//Medidor de distancia hecho por Pedro Fregoso
 const int trigPin = 5;   // Pin conectado al Trigger del sensor ultrasónico
 const int echoPin = 18;  // Pin conectado al Echo del sensor ultrasónico
 
