@@ -1,4 +1,4 @@
-// Medidor de distancia a OLED hecho por Guadalupe Torres
+// Medidor de distancia a OLED hecho por Pedro Fregoso
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
