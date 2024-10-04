@@ -1,3 +1,4 @@
+//Codigo por Pedro Fregoso
 #include <SPI.h>               // Incluye la biblioteca SPI para la comunicación
 #include <MFRC522.h>          // Incluye la biblioteca para el lector RFID MFRC522
 
@@ -20,7 +21,7 @@ void setup() {
 
 byte ActualUID[4];             // Almacena el código UID del Tag leído
 // abajo reemplaza por el UID de alguna de tus tarjetas que quieras que tenga acceso
-byte Usuario1[4] = {0x14, 0xDD, 0x7F, 0x22}; // UID tarjeta CON acceso (reemplaza por tu UID)
+byte Usuario1[4] = {0x86, 0x4D, 0x46, 0x32}; // UID tarjeta CON acceso (reemplaza por tu UID)
 byte Usuario2[4] = {0xCE, 0x57, 0xDF, 0xA9}; // UID de otra tarjeta que quieras que tenga acceso
 
 void loop() {
