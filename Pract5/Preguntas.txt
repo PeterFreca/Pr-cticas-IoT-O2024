@@ -1,0 +1,21 @@
+1.Que tan preciso es el sensor respecto a la temperatura que da la API?
+No se puede comparar debido a que el sensor esta midiendo temperatura ambiente del medio en el que se encuentra, mientras que la api mide la temperatura al aire libre de una zona cuya altura no esta definida y podemos asumir que el valor es mas bajo debido a que la medicion es afectada por el flujo de rafagas de aire presentes en esa noche
+
+2. Cual es el % de variación ?
+El porcentaje de variación entre 19.5 y 24.1 es de 23.6%.
+
+3. Cual es la principal diferencia entre la práctica 5.1 y la 5.2 con la 5.3?
+En una usamos MQTT como metodo para la transferencia de informacion y en la otra se usa http
+
+4. Cual plataforma cloud de IoT se te ha hecho mas amigable de las dos
+revisadas y porque?
+Thingspeak se me hizo mas amigable, ya habia trabajado anteriormente con Matlab, y me gusto que se pueden añadir una variedad de datos y tipos de entrada al dashboard lo que lo vuelve mas completo y atractivo para usar
+
+5. En tus propias palabras como explicarías para que sirve la plataforma
+cloud de IoT y porque se llama de IoT y no simplemente plataforma cloud?
+Si bien el término 'cloud' engloba una infraestructura de computación remota, el acrónimo 'IoT' especifica que esta plataforma está adaptada para gestionar y analizar datos provenientes de objetos físicos conectados a internet.
+
+6. Revisa el código y contesta cuales son las líneas de código que escriben el status ?
+
+
+
